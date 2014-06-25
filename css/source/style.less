@@ -1,0 +1,44 @@
+@import 'variables';
+
+
+
+body{
+	background: url(../images/pattern.jpg);
+}
+.title{
+	width: 600px;
+	margin: 200px auto 35px auto;
+	text-align: center;
+	color: @white;
+}
+.bands-top-five{ 
+	width: 465px;
+	margin: 0 auto;
+	font-size: 1.3em;
+	border: 5px solid @greyl;
+	background: @greyd;
+	border-radius: 20px;
+}
+.bands-top-five li{
+	color: @white; 
+}
+.badge {
+	color: @red;
+	background: none;
+	font-size: 1em;
+}
+.units{
+	color: fade(@greyl, 50%);
+	font-size: 0.8em;
+	font-weight: 200;
+	margin-left: 5px;
+}
+
+.list-group-item{
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid fade(@greyl, 20%);
+}
+.list-group-item:last-child{
+	border: none;
+}
